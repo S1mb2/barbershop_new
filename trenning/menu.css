@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    
+}
+.header{
+    background-color: #222324;
+	
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto; 
+}
+
+.header__container{
+   display: flex;
+   align-items: center;  
+   height: 140px;
+}
+
+.header__logo{
+    
+}
+.logo__name{
+    font-weight: 700;
+    font-size: calc(24px + 26 * ((100vw - 320px) / (1280 - 320)));	
+    line-height: 1;
+    color: #bd9362;
+}
+.logo__podlogo{
+    text-align: center;
+    /*font-size: 12px;*/
+    font-size: calc(6px + 8 * ((100vw - 320px) / (1280 - 320)));
+}
+.menu__body{    
+    flex: auto;
+
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu__link{
+    font-size: calc(9px + 10 * ((100vw - 320px) / (1280 - 320)));
+    text-transform: capitalize;
+    margin: 0 15px ;	
+	color: white;
+	text-decoration: none;
+	transition: color .2s linear;
+}
+.menu__link:hover{
+	color: #bd9362;
+}
+
